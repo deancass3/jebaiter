@@ -1,7 +1,10 @@
 .row {
   display: flex;
 }
-
+h1 {
+  font-size: 40px;
+  font-family: 'Lacquer', sans-serif;
+}
 .column {
   flex: 33.33%;
   padding: 5px;
