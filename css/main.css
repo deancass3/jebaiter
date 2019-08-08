@@ -1,8 +1,19 @@
 .row {
   display: flex;
 }
+body {
+  background-color: #e6e6ff;
+}
 h1 {
   font-size: 40px;
+  font-family: 'Lacquer', sans-serif;
+}
+h3 {
+  font-size: 20px;
+  font-family: 'Lacquer', sans-serif;
+}
+h2 {
+  font-size: 30px;
   font-family: 'Lacquer', sans-serif;
 }
 .column {
@@ -77,4 +88,27 @@ img {
   /*Set the size of the magnifier glass:*/
   width: 100px;
   height: 100px;
+}
+
+ button {
+  background-color: #e60000;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9999;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: center;
+    top: 50%;
 }
